@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+	<meta charset="UTF-8">
+	<title>リストサンプル</title>
+</head>
+<body>
+	<h2>(1)番号なしリスト</h2>	
+	<ul>
+		<li>アクション</li>
+		<li>ミステリー</li>
+		<li>SF</li>
+		<li>ヒューマン</li>
+	</ul>
+	
+	
+	<h2>(2)番号付きリスト</h2>				
+		<ol>
+			<li>アクション</li>
+			<li>ミステリー</li>
+			<li>SF</li>
+			<li>ヒューマン</li>
+		</ol>
+		
+	<h2>(3)リスト項目に他のリスト」</h2>
+	<ul>
+		<li>アクション</li>
+		<li>ミステリー
+			<ul>
+				<li>邦画</li>
+				<li>洋画
+					<ul>
+						<li>米国</li>
+						<li>欧州</li>
+						<li>アジア</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>SF
+			<ol>
+				<li>2006年</li>
+				<li>2007年</li>
+				<li>2008年
+					<ol>
+						<li>上半期</li>
+						<li>下半期</li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+		<li>ヒューマン</li>
+	</ul>
+	
+	<h2>(4)番号の種類の変更</h2>
+	<h3>(4-1)type="1⇒"数字</h3>	
+	<ol type="1">
+		<li>アクション</li>
+		<li>ミステリー</li>
+		<li>SF</li>
+		<li>ヒューマン</li>
+	</ol>
+	
+	<h3>(4-2)type="a"⇒アルファベット小文字</h3>
+	<ol type="a">
+		<li>アクション</li>
+		<li>ミステリー</li>
+		<li>SF</li>
+		<li>ヒューマン</li>
+	</ol>
+	
+	<h3>(4-3)type="A"⇒アルファベット大文字</h3>
+	<ol type="A">
+		<li>アクション</li>
+		<li>ミステリー</li>
+		<li>SF</li>
+		<li>ヒューマン</li>
+	</ol>
+	
+	<h3>(4-4)type="i"⇒ローマ数字小文字</h3>
+	<ol>
+	<li>アクション</li>
+	<li>ミステリー</li>
+	<li>SF</li>
+	<li>ヒューマン</li>
+	</ol>
+	
+	<h3>(4-5)type="I"⇒ローマ数字大文字</h3>
+	<ol type="I">
+	<li>アクション</li>
+	<li>ミステリー</li>
+	<li>SF</li>
+	<li>ヒューマン</li>
+	</ol>
+	
+	<h3>(4-6)項目ごとに種類を変更</h3>		
+	<ul>
+		<li type="disc">アクション</li>
+		<li type="circle">ミステリー</li>
+		<li type="square">SF</li>
+		<li>ヒューマン</li>
+	</ul>
+	
+	<h3>(4-7)スタイルシートを使って変更</h3>	
+	<ol style="list-style-type:decimal-leading-zero;">
+		<li>アクション</li>
+		<li>ミステリー</li>
+		<li>SF</li>
+		<li>ヒューマン</li>
+	</ol>
+	
+	<h2>(5)定義リスト(dl要素とdt要素とdd要素)</h2>
+	<p>
+		四字熟語の説明
+	</p>
+	<dl>
+		<dt>喜怒哀楽</dt>
+		<dd>喜び・怒り・悲しみ・楽しみなど人間が持つ様々な感情のこと</dd>
+		<dt>一朝一夕</dt>
+		<dt>一旦一夕</dt>
+		<dd>非常に短い時間のたとえ</dd>
+	</dl>		
+</body>
+</html>
